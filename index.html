@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <div class="heading">
+        <h1>Student grade calculator</h1>
+    </div>
+    <div class="container">
+        <div class="result">
+            <div class="box">
+                <h3 id="percentage">Your percentage is:</h3>
+            
+            <h3 id="grade">Your grade is:</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p id="message" style="font-weight:bold;padding:5px"></p>
+        </div>
+        <div class="marks">
+            <h2>Enter your marks</h2>
+            <input type="text" name="" id="maths" placeholder="Maths" required style="padding:5px; border-radius: 5px;">
+            <br>
+            <br>
+            <input type="text" name="" id="physics" placeholder="Physics" required style="padding:5px; border-radius: 5px;">
+            <br>
+            <br>
+            <input type="text" name="" id="chemistry" placeholder="Chemistry" required style="padding:5px; border-radius: 5px;">
+            <br>
+            <br>
+            <input type="text" name="" id="english" placeholder="English" required style="padding:5px; border-radius: 5px;">
+            <br>
+            <br>
+            <input onclick="calculate()"  type="submit" value="Submit" id="submit">  
+        </div>
+        
+    </div>
+</div>
+
+   
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
